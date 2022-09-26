@@ -1,9 +1,0 @@
-diff a/tigers.yaml b/tigers.yaml	(rejected hunks)
-@@ -1,6 +1,7 @@
- team: Tigers
- 
- manager: Donald
-+coach: Deborah
- members:
- - Linda
- - William
