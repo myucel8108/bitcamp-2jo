@@ -21,7 +21,7 @@
 			history.back();
 		</script>
 	</c:if>
-	
+	<!-- 고든램지 -->
 	<form action="update" method="post" enctype="multipart/form-data">
 		<input type="hidden" name="num" value="${dto.num}">
 		<input type="hidden" name="currentPage" value="${currentPage}">
@@ -41,7 +41,7 @@
 					<input type="file" name="upload" class="form-control" multiple="multiple">
 				</td>
 			</tr>
-			<tr>
+			<tr><!--개맛잇다-->
 				<td colspan="2">
 					<textarea name="content" class="form-control" required="required" style="width: 500px; height: 150px;"></textarea>
 				</td>

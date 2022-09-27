@@ -22,12 +22,14 @@ import util.ChangeName;
 @RestController
 @RequestMapping("/answer")
 public class AnswerController {
+	//adsfadsf
+	
 	
 	@Autowired
 	BoardAnswerServiceInter answerService;
 
 	String uploadPhoto;
-	
+	//와안되는데
 	//댓글에서 사진 업로드 시에 호출
 	@PostMapping("/updatephoto")
 	public Map<String, String> photoUpload(MultipartFile photo, HttpServletRequest request) {
@@ -90,6 +92,7 @@ public class AnswerController {
 		
 		answerService.deleteAnswer(idx);
 	}
+	
 }
 
 
