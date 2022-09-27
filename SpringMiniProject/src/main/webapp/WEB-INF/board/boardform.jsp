@@ -39,7 +39,7 @@
 					value="${subject}">					
 				</td>
 			</tr>
-			<tr>
+			<tr> <!-- 9월27일 테스트하는  -->
 				<th style="width: 100px;">사진</th>
 				<td>
 					<input type="file" name="upload" class="form-control" multiple="multiple">
