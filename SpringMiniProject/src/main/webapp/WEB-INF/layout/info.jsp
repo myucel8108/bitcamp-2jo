@@ -23,11 +23,12 @@
 	<c:if test="${sessionScope.loginok==null}">
 		<img src="${root}/image/seoul2.jpg" width="130" height="130" class="rounded-circle">
 	</c:if>
-	
+	<!--  dasdf-->
 	<!-- 로그인한 상태에서는 로그인한 멤버의 사진이 나오도록 한다 -->	
 	<c:if test="${sessionScope.loginok!=null}">
 		<img src="${root}/upload/${sessionScope.loginphoto}" width="130" height="130" class="rounded-circle">
 	</c:if>
+	<!--오늘 저녁은 서브웨이 -->
 	
 	<br><br>
 	<i class="material-icons" style="font-size:16px;">person_outline</i>&nbsp;이름<br>	
