@@ -45,7 +45,7 @@
 					<input type="file" name="upload" class="form-control" multiple="multiple">
 				</td>
 			</tr>
-			<tr>
+			<tr><!--정우진 주석-->
 				<td colspan="2">
 					<textarea name="content" class="form-control" required="required" style="width: 500px; height: 150px;"></textarea>
 				</td>
