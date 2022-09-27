@@ -17,7 +17,7 @@
     span.likes {
     	cursor: pointer;
     }
-    
+    <!-- 하 존나 힘들다 -->
     span.day{
     	color: #333;
     	float: right;
