@@ -23,6 +23,8 @@ import util.ChangeName;
 @RequestMapping("/answer")
 public class AnswerController {
 	//adsfadsf
+	
+	
 	@Autowired
 	BoardAnswerServiceInter answerService;
 
