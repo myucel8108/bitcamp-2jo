@@ -21,7 +21,7 @@
 			history.back();
 		</script>
 	</c:if>
-	
+	<!-- 고든램지 -->
 	<form action="update" method="post" enctype="multipart/form-data">
 		<input type="hidden" name="num" value="${dto.num}">
 		<input type="hidden" name="currentPage" value="${currentPage}">
