@@ -90,6 +90,7 @@ public class AnswerController {
 		
 		answerService.deleteAnswer(idx);
 	}
+	
 }
 
 
