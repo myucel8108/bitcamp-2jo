@@ -15,7 +15,9 @@
 		width: 130px;
 		height: 160px;
 	}
+	/*holly molly*/
 </style>
+	<!--수정수정-->
 <script type="text/javascript">
 	$(function() {
 		//버튼 클릭 시 사진 불러오는 이벤트 주기
