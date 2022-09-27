@@ -9,7 +9,7 @@
 			<param name="ConversionPattern" value="%-5p: %c - %m%n" />
 		</layout>
 	</appender>
-	
+	<!-- test -->
 	<!-- Application Loggers -->
 	<logger name="com.bit.mini">
 		<level value="info" />
