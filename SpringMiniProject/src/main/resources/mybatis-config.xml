@@ -3,8 +3,6 @@
 
 <configuration>
 	<typeAliases>
-<!--		<typeAlias type="bit.data.dto.MemberDto" alias="mdto"/>-->
-<!--		<typeAlias type="bit.data.dto.BoardDto" alias="bdto"/>-->
-<!--		<typeAlias type="bit.data.dto.BoardAnswerDto" alias="badto"/>-->
+		<typeAlias type="bit.bit.data.bit.mini.dto.userdto" alias="userdto"/>
 	</typeAliases>
 </configuration>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="bit.bit.data.UserDao">
+    <insert id="insertUser" parameterType="userdto">
+        insert into user (usernum,usertype,userid,userpass,username,
+                          nickname,photo,addr,hp,lockernum,lastlogin,birth)
+        values (#{usernum},#{usertype},#{userid},#{userpass},#{username},#{nickname},#{photo},#{addr},#{hp},#{lockernum},#{now()},#{birth})
+    </insert>
+
+
+
+
+
+
+
+</mapper>
