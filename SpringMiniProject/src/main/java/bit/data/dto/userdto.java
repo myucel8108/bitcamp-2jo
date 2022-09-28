@@ -5,5 +5,5 @@ import lombok.Data;
 
 @Data
 public class userdto {
-
+    private int usernum;
 }
