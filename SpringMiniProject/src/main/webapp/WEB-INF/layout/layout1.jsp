@@ -59,6 +59,7 @@
     </style>
 </head>
 <body>
+<!--인포 변경예정-->
 	<div class="mainlayout1">
 		<div class="main" id="header">
 			<tiles:insertAttribute name="header"/>
