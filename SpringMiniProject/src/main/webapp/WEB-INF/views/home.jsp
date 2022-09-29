@@ -6,9 +6,9 @@
 </head>
 <body>
 <h1>
-	heejunjunjun
+	메인화면
 </h1>
-
+<button onclick="location.href"></button>
 
 </body>
 </html>
