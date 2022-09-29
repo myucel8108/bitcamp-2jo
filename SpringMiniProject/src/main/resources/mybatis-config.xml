@@ -3,6 +3,6 @@
 
 <configuration>
 	<typeAliases>
-		<typeAlias type="bit.bit.data.bit.mini.dto.userdto" alias="userdto"/>
+		<typeAlias type="bit.data.dto.userdto" alias="userdto"/>
 	</typeAliases>
 </configuration>

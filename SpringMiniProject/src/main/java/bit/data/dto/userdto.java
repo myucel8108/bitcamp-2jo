@@ -1,9 +1,9 @@
 package bit.data.dto;
 
-
 import lombok.Data;
 
-import java.security.Timestamp;
+import java.sql.Timestamp;
+
 
 @Data
 public class userdto {
@@ -13,6 +13,7 @@ public class userdto {
     private String userpass;
     private String username;
     private String nickname;
+    private String email;
     private String photo;
     private String addr;
     private String hp;
