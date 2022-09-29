@@ -18,6 +18,9 @@
 	</style>
 </head>
 <body>
-
+	<h1>
+		메인화면
+	</h1>
+	<button onclick="location.href='/loginform'"></button>
 </body>
 </html>
